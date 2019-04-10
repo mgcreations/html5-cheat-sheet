@@ -8,8 +8,9 @@
 </head>
 <body>
 
-    <p> This Html5 Cheat Sheet only displays the html tags, no CSS is used</p>
+    <!-- This Html5 Cheat Sheet only displays the html tags, no CSS is used -->
     
+
     <!-- Heading -->
     
     <h1>Heading One</h1>
@@ -19,28 +20,38 @@
     <h5>Heading Five</h5>
     <h6>Heading Six</h6>
     
-    <!-- Paragraphy -->
+    <!-- Paragraph -->
+
     <p>Lorem ipsum dolor, <strong>sit amet consectetur</strong> adipisicing elit. Molestiae sapiente porro quisquam aperiam nesciunt cumque! Ullam aperiam aliquid deleniti nostrum fugit nesciunt <em>voluptatem nihil</em> ut alias repellendus, dignissimos assumenda cum repudiandae architecto magni expedita voluptatibus explicabo ex magnam ea reprehenderit, ad nulla! Id et laboriosam exercitationem nesciunt quo distinctio. Excepturi.</p>
 
     <p>Lorem ipsum dolor sit amet <a target="_blank" href="www.google.co.za">consectetur</a>, adipisicing elit. Dolorum id totam labore minus quibusdam? Explicabo incidunt quis ratione similique autem, impedit reiciendis? Voluptatibus nulla inventore hic, illo repudiandae explicabo voluptate vitae alias eum animi ullam dignissimos aliquam, vero, neque corrupti mollitia? Officiis quis architecto, accusantium mollitia placeat atque magni sequi!</p>
 
+    <br>
+    <hr>
+    <hr>
 
     <!-- Lists -->
 
-    <p>Un ordered list</p>
+    <!-- Un ordered list -->
+    
     <ul>
         <li>List item 1</li>
         <li>List item 2</li>
         <li>List item 3</li>
     </ul>
 
-    <p>Ordered list</p>
+
+    <!-- Ordered list -->
 
     <ol>
         <li>List item 1</li>
         <li>List item 2</li>
         <li>List item 3</li>
     </ol>
+
+    <br>
+    <hr>
+    <hr>
 
     <!-- Tables -->
 
@@ -72,7 +83,72 @@
         </tbody>
     </table>
 
+    <br>
+    <hr>
+    <hr>
+
     <!-- Forms -->
 
+    <!-- This only the form fields. Form has no sumbit function. -->
+
+    <form action="process.php" method="POST">
+        <div>
+            <label>First Name</label>
+            <input type="text" name="firstName" placeholder="Enter first name">
+        </div>
+        <div>
+            <label>Last Name</label>
+            <input type="text" name="lastName" placeholder="Enter last name">
+        </div>
+        <div>
+            <label>Email</label>
+            <input type="email" name="email" placeholder="Enter email">
+        </div>
+        <div>
+            <label>Message</label>
+            <textarea name="message" placeholder="Your message"></textarea>
+        </div>
+        <div>
+            <label>Gender</label>
+            <select name="gender">
+                <option value="male">Male</option>
+                <option value="female">female</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <div>
+            <label>Age</label>
+            <input type="number" name="age" value="30">
+        </div>
+        <div>
+            <label>Birthday</label>
+            <input type="date" name="birthday">
+        </div>
+        <div>
+            <input type="submit" name="submit" value="Submit">
+        </div>
+    </form>
+
+
+    <br>
+    <hr>
+    <hr>
+
+    <!-- Buttons -->
+
+    <button>Click Me</button>
+
+    
+    <br>
+    <hr>
+    <hr>
+
+    <!-- Images -->
+    
+    <img>
+
+
+
+    <div style="margin-top: 500px"></div>
 </body>
 </html>
